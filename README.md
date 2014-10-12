@@ -1,4 +1,4 @@
 testrepo
 ========
 
-Hello, world.
+Hello world.
