@@ -24,7 +24,7 @@ function Main()
 
     nmap <Space> <Leader>
     nnoremap <Leader>a :%s/[^\x00-\x7F]/<Char-127>/gc<CR>
-    nnoremap <leader>w :%s/\s\+$//gc<CR>
+    nnoremap <Leader>w :%s/\s\+$//gc<CR>
     nnoremap <Left> <Nop>
     nnoremap <Down> <Nop>
     nnoremap <Up> <Nop>
