@@ -8,7 +8,7 @@ function Main()
     set listchars=tab:!.,trail:_ "show tab characters and trailing spaces
     set display=uhex             "show unprintable characters as e.g. <80>
 
-    set noexpandtab   "add spaces when tab key is pressed (not tab characters)
+    set expandtab     "add spaces when tab key is pressed (not tab characters)
     set tabstop=8     "tab key alignment and tab character alignment (columns)
     set shiftwidth=4  "column count per single level of indentation
     set softtabstop=0 "this is an evil variable which should always be zero
